@@ -1,0 +1,17 @@
+[package]
+name = "tron-grpc"
+version = "0.0.1"
+edition = "2021"
+description = "the gRPC types and the client for TRON protocol"
+license = "LGPL-3.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+prost-types = { version = "0.12.1" }
+prost = { version = "0.12.1" }
+tonic = { version = "0.10.0" }
+
+[build-dependencies]
+tonic-build = { version = "0.10.0" }
+prost-build = { version = "0.12.1" }
