@@ -1,7 +1,7 @@
 tonic::include_proto!("protocol");
 
 impl prost::Name for AccountCreateContract {
-    const NAME: &'static str = "TransferAssetContract";
+    const NAME: &'static str = "AccountCreateContract";
     const PACKAGE: &'static str = "protocol";
 }
 impl prost::Name for TransferContract {
